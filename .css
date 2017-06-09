@@ -1,0 +1,121 @@
+*{
+  //border: solid black 1px;
+  position: relative;
+}
+
+body{
+  text-align:center;
+  background-color: #8d96a3;
+  
+}
+
+h1{
+  font-family:Roboto, Georgia, sans-serif;
+  font-size:4em;
+ // background-image: url("http://www.vulgaris-medical.com/sites/default/files/styles/full_content/public/field/image/actualites/2016/02/12/le-chat-source-de-bienfaits-pour-votre-sante.jpg");
+  background-image: cover;
+  //height:5em;
+  color:#A73A3A;
+  border-top:solid 2px #ccd2dd;
+  border-bottom:solid 2px #ccd2dd;
+}
+
+h2{
+  font-family:Montserrat; georgia; sans-serif;
+  weight:bold;
+  font-style:italic;
+}
+.contenu{
+  text-align:center;
+  font-family:Montserrat; Georiga; Sans-serif;
+  list-style-position:inside;
+ 
+  
+}
+
+.subtitle{
+  font-family: Roboto, Georgia, Sans-serif;
+}
+
+.link-btn a {
+  display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border: 1px solid #ccd2dd;
+    border-radius:10px;
+    font-family:Montserrat; Georgia; Sans-serif;
+    background-color: #A73A3A;
+    font-weight:900;
+    padding-top: 11px;
+    text-align:center;
+    text-decoration:none;
+    cursor:pointer; 
+    color : black;
+  
+    
+    
+}
+
+.link-btn a:hover {
+  background-color:#ccd2dd;
+   
+}
+
+.link-btn a{
+    //display: inline-block;
+        //width: 150px;
+        //height: 40px;
+   //margin: 10px;
+    //border: 1px solid #ccd2dd;
+    //font-family:Montserrat; Georgia; Sans-serif;
+   // background-color: #A73A3A;
+    //font-weight:900;
+   // padding-top: 11px;
+   // text-align:center;
+   // cursor:pointer; 
+   // color:black;
+    //position:relative;
+    }
+    
+  
+    
+    
+    .link-btn a:active{
+      top:2px;
+      background-color:#d35b5b;
+    }
+    
+         }
+    
+    //.floating-box:hover{
+     // background-color:#ccd2dd;
+    }
+   .banner{
+     width:100%;
+   }
+    
+   .contact-btn a{
+     border: solid 1px #ccd2dd;   
+     border-radius:10px;
+     text-align:center;
+     text-decoration:none;
+     display:inline-block;
+     padding: 18px;
+     background-color:#A73A3A;
+     color:black;
+     position relative;
+     cursor: pointer;
+   }
+   
+    
+
+   .contact-btn a:hover{
+    background-color:#ccd2dd;
+    cursor:pointer;
+   }
+   .contact-btn a:active{
+     top:2px;
+     background-color:#d35b5b;
+   }
+   
